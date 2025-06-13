@@ -1,0 +1,59 @@
+body {
+  background: #c7dab6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+div.container{
+margin: 40px;
+display: flex;
+}
+div.bio{
+  margin-left: 20%;
+  margin-right: 10px;
+  float: left;
+  width: 40%;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid #000000;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
+}
+
+div.bio h2{
+  font-size: 30px;
+  text-align: center;
+}
+div.bio p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+div.interesses{
+  width: 20%;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid #000000;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
+}
+div.interesses h2{
+  text-align: center;
+  font-size: 30px;
+ 
+}
+div.interesses ul li{
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 25px;
+  margin-left: 20px;
+  
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
