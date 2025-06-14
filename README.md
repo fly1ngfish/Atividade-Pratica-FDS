@@ -1,5 +1,5 @@
 
-# Página Simples com HTML, CSS e JavaScript
+# Atividade Pratica de FDS
 
 Este projeto consiste em uma página web simples criada com **HTML, CSS e JavaScript**. Ele foi desenvolvido como parte de uma atividade prática para aplicar conhecimentos fundamentais de estruturação de páginas, estilização e interatividade.
 
