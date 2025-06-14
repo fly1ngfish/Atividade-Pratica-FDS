@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atividade Prática - FDS</title>
   <link rel="stylesheet" href="src/styles/base.css">
 </head>
-  <h1>Kayck de Souza Barbosa</h1>
+  <h1>Kayck de Souza Barbosa</h1> <!-- Nome -->
   <div class="container">
     <div class="bio">
-      <h2>Bio</h2>
+      <h2>Bio</h2> <!-- Bio -->
       <p>
         &nbsp;Me chamo Kayck, tenho 19 anos e sou do Rio de Janeiro, capital. Cursando Engenharia de Software e sou formado em Técnico em Informática pela FAETEC. Tenho experiência com desenvolvimento web (HTML, CSS, JavaScript, PHP, MySQL) e já criei projetos como um sistema escolar e um e-commerce para a marca Kyo.<br>&nbsp;Me interesso por tecnologia, animais e jogos, e busco sempre aprender mais e crescer na área de TI.
       </p>
     </div>
     <div class="interesses">
-      <h2>Interesses:</h2>
+      <h2>Interesses:</h2> <!-- Lista -->
       <ul>
         <li>Jogar</li>
         <li>Cozinhar</li>
@@ -23,29 +23,44 @@
       </ul>
     </div>
   </div>
-  <img src="src/assets/img/GKXpbpVWoAAJcBr.jpg" alt="lola<3">
+        <img class="lola" src="src/assets/img/lola.jpg" alt="lola<3"> <!-- Imagem -->
   </div>
-  <div class="paises">
-  <table>
-    <tr>
-      <th>Pais</th>
-      <th>Bandeira</th>
-    </tr>
-    <tr>
-      <td>Canadá</td>
-      <td><img src="src/assets/img/canada.png"></td>
-    </tr>
-    <tr>
-      <td>Alemanha</td>
-      <td><img src="src/assets/img/alemanha.png"></td>
-    </tr>
-    <tr>
-      <td>Japão</td>
-      <td><img src="src/assets/img/japao.png"></td>
-    </tr>
-  </table>
-  </div>
-  <h3>Site que desenvolvi:</h3><a href="https://wearkyo.com/">wearkyo</a>
-  <footer>Trabalho de FDS - Kayck de Souza</footer>
+  <div class="container">
+    <div class="coluna-esquerda">
+      <div class="links">
+        <h2>Site que desenvolvi:</h2>
+        <a href="https://wearkyo.com/" target="_blank"> <!-- link de interesse -->
+          <img src="src/assets/img/kyo.png">&nbsp;wearkyo.com
+        </a>
+      </div>
+      <div class="links">
+        <button id="msg" onclick="mensagem()"><p>CLIQUE AQUI !</p></button> <!-- Botão interativo -->
+        </div>
+    </div>
+    <div class="paises">
+        <h2>Países que quero visitar:</h2>
+      <table> <!-- Tabela -->
+        <tr>
+          <th>País</th>
+          <th>Bandeira</th>
+        </tr>
+        <tr>
+          <td>Canadá</td>
+          <td><img class="bandeiras" src="src/assets/img/canada.png"></td>
+        </tr>
+        <tr>
+          <td>Alemanha</td>
+          <td><img class="bandeiras" src="src/assets/img/alemanha.png"></td>
+        </tr>
+        <tr>
+          <td>Japão</td>
+          <td><img class="bandeiras" src="src/assets/img/japao.png"></td>
+        </tr>
+      </table>
+    </div>
+</div>
+  <footer><p>Atividade Prática - FDS - Kayck de Souza</p></footer>
+
+  <script src="src/scripts/main.js"></script>
 </body>
 </html>
